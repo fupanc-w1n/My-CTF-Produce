@@ -1,5 +1,5 @@
 FROM nginx:latest
 
-RUN echo 'hello nginx,wahahaha,just a test' > /usr/share/nginx/html/index.html
+RUN echo 'wow,wow,wow，it is a test for using' > /usr/share/nginx/html/index.html
 
 EXPOSE 80
